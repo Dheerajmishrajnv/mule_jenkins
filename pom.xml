@@ -7,7 +7,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>mule_jenkins</name>
+	<name>mymuleJenkins1</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,7 +31,7 @@
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
-			<groupId>org.mule.tools.maven</groupId>
+				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
@@ -41,14 +41,13 @@
 						<muleVersion>4.2.2</muleVersion>
 						<username>Dheerajmishrajnv2</username>
 						<password>Dheeraj@m3NO</password>
-						<applicationName>mule_jenkins1725</applicationName>
+						<applicationName>mymuleJenkins1</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
-			
 		</plugins>
 	</build>
 	<dependencies>
