@@ -41,7 +41,7 @@
 						<muleVersion>4.2.2</muleVersion>
 						<username>Dheerajmishrajnv2</username>
 						<password>Dheeraj@m3NO</password>
-						<applicationName>mule_jenkins</applicationName>
+						<applicationName>mule_jenkins1725</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
