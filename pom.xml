@@ -38,12 +38,12 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com/</uri>
-						<muleVersion>4.3.0</muleVersion>
-						<username>Dheerajmishrajnv2</username>
-						<password>Dheeraj@m3NO</password>
-						<applicationName>mymuleJenkins1</applicationName>
-						<environment>Sandbox</environment>
-						<workerType>MICRO</workerType>
+						<muleVersion>${mule.version}</muleVersion>
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
+						<applicationName>${appname}</applicationName>
+						<environment>${env}</environment>
+						<workerType>${worker}</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
