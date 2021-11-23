@@ -9,7 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<configuration-properties doc:name="Configuration properties" doc:id="e404b37b-44dc-4e52-b133-8ca8786897da" file="config.yaml" />
 	<flow name="mule_jenkinsFlow" doc:id="a364f7f3-b1a8-48c2-b28d-90410f65b4bf" >
-		<http:listener doc:name="Listener" doc:id="6b43e643-b814-4148-b6e1-e21140b97f33" config-ref="HTTP_Listener_config" path="/test"/>
 		<set-payload value='#["Hello mule"]' doc:name="Set Payload" doc:id="b3f3ff1d-36ec-44b2-b960-2448a67a393c" />
 		<logger level="INFO" doc:name="Logger" doc:id="2db6e2b8-6700-4412-a546-bb004752ba20" message="#[payload]"/>
 	</flow>
